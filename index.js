@@ -15,9 +15,8 @@ function nowServing(katzDeliLine) {
     return (" Currently " + " serving " + katzDeliLine.shift() + ".")
 }
 
-var katzDeliLine = [];
-
 function currentLine(katzDeliLine) {
+  var katzDeliLine = [];
   let i = 0;
   while (i < katzDeliLine.length) {
     katzDeliLine.push(` `+[i+1]+`. `  + katzDeliLine[i])
