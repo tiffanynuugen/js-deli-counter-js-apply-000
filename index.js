@@ -4,7 +4,10 @@ function takeANumber(currentLine, name) {
 }
 
 function nowServing(currentLine) {
-  for (i = 0; i < currentLine.length; i++) {
+  while (i < currentLine.length) {
+    i++;
+  }
+  if (currentLine.length === 0) {
     return "There is nobody waiting to be served!";
   }
 }
