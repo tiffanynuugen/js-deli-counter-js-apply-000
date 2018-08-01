@@ -1,16 +1,18 @@
-function takeANumber(currentLine, name) {
-  currentLine.push(name);
-  return (" Welcome," + name + " You " + " are " + " number " + currentLine.length + " in " + " line.");
+function takeANumber(katzDeliLine, name) {
+  katzDeliLine.push(name);
+  return (" Welcome," + name + " You " + " are " + " number " + katzDeliLine.length + " in " + " line.");
 }
 
-function nowServing(currentLine) {
+function nowServing(katzDeliLine) {
   let i = 0;
-  while (i < currentLine.length) {
+  while (i < katzDeliLine.length) {
     i++;
   }
-  if (currentLine.length === 0) {
+  if (katzDeliLine.length === 0) {
     return "There is nobody waiting to be served!";
   }
   else 
-    return (" Currently " + " serving " + currentLine.shift() + ".")
+    return (" Currently " + " serving " + katzDeliLine.shift() + ".")
 }
+
+function currentLine
