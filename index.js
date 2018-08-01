@@ -20,5 +20,5 @@ function currentLine(katzDeliLine) {
   for (let i = 0; i < katzDeliLine.length; i++) {
   message += (i+1) + ". " + katzDeliLine[i] + ", "
   }
-  return message.substr(0, message.length - 1)
+  return message.substring(0, message.length - 1)
   }
