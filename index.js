@@ -26,4 +26,3 @@ function currentLine(katzDeliLine) {
 else
   return message.slice(0, message.length - 2);
 }
-
