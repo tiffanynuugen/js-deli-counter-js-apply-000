@@ -14,4 +14,3 @@ function nowServing(currentLine) {
   else {
     return (" Currently " + " serving " + currentLine.shift().);
   }
-  
